@@ -19,6 +19,7 @@ int main(){
         partiegagnee = jeu.testeVictoireDiagonale() && jeu.testeVictoireHorizontale() && jeu.testeVictoireVerticale();
         jeu.finTour();
     }
+
     
     
     return 0;
