@@ -17,7 +17,7 @@ class Grille{
         char getContent(int x, int y); 
         // renvoie le contenu de la case de coordonnées x,y
 
-        void setContent(int x, int y, int nouveauContenu); 
+        void setContent(int x, int y, char nouveauContenu); 
         // ajoute un contenu dans une case de coordonnées x,y
         // le contenu est un entier non nul
 

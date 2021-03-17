@@ -12,7 +12,7 @@
 
         // ajoute un contenu dans une case de coordonnées x,y dans [0;2]
         // le contenu est un entier non nul
-    void Grille::setContent(int x, int y, int nouveauContenu){
+    void Grille::setContent(int x, int y, char nouveauContenu){
         _cases[x-1+(y-1)*3] = nouveauContenu;
     }
         
