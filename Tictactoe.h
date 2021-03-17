@@ -7,9 +7,9 @@
 class Tictactoe{
 
     private:
-        Grille grilleDeJeu;
-        int numeroTour;
-        char symboleCourant;
+        Grille _grilleDeJeu;
+        int _numeroTour;
+        char _symboleCourant;
 
     public:
         Tictactoe();
