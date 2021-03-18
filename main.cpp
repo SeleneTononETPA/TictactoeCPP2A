@@ -11,7 +11,7 @@ int main(){
     int numeroCase;
 
 
-    while(!partiegagnee || jeu.testeJeuNul()){
+    while(!partiegagnee && !jeu.testeJeuNul()){
         
         jeu.afficheGrille();
         std::cin >> numeroCase;
