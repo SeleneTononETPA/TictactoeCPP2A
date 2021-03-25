@@ -10,7 +10,10 @@ int main(){
     Tictactoe jeu = Tictactoe();
     int numeroCase;
 
+    Grille maGrilleDeTest = Grille(7,6);
+    maGrilleDeTest.affiche();
 
+/*
     while(!partiegagnee && !jeu.testeJeuNul()){
         
         jeu.afficheGrille();
@@ -19,7 +22,7 @@ int main(){
         partiegagnee = jeu.testeVictoireDiagonale() || jeu.testeVictoireHorizontale() || jeu.testeVictoireVerticale();
         jeu.finTour();
     }
-
+*/
     
     
     return 0;
