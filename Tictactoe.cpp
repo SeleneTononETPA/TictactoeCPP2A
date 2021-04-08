@@ -6,7 +6,7 @@
 #include <iostream>
 
 
-    Tictactoe::Tictactoe() : _symboleCourant('X') {}
+    Tictactoe::Tictactoe() : _symboleCourant('X'),_numeroTour(0) {}
 
     void Tictactoe::afficheGrille(){
         _grilleDeJeu.affiche();

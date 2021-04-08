@@ -6,9 +6,7 @@
 #include <iostream>
 
 
-    Puissance4::Puissance4() : _symboleCourant('X') {
-        _grilleDeJeu = Grille(7,6);
-    }
+    Puissance4::Puissance4() : _symboleCourant('X'),_numeroTour(0), _grilleDeJeu(7,6) {}
 
     void Puissance4::afficheGrille(){
         _grilleDeJeu.affiche();
