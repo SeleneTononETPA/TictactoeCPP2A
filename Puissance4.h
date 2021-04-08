@@ -1,11 +1,11 @@
-#ifndef TICTACTOE_H
-#define TICTACTOE_H
+#ifndef PUISSANCE4_H
+#define PUISSANCE4_H
 
 #include "Grille.h"
 #include "JeuGrille.h"
 #include <string>
 
-class Tictactoe : public JeuGrille{
+class Puissance4 : public JeuGrille{
 
     private:
         Grille _grilleDeJeu;
@@ -13,7 +13,7 @@ class Tictactoe : public JeuGrille{
         char _symboleCourant;
 
     public:
-        Tictactoe();
+        Puissance4();
         void afficheGrille();
         void ajouteSymbole(int x, int y);
         bool testeVictoireVerticale();
