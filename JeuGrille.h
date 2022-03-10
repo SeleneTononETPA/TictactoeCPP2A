@@ -19,6 +19,7 @@ class JeuGrille{
         virtual bool testeVictoireHorizontale(){return false;}
         virtual bool testeVictoireDiagonale(){return false;}
         virtual bool testeJeuNul(){return false;}
+        virtual void changeModeAffichage(int numeroStrat){}
 
         virtual void finTour(){}
 

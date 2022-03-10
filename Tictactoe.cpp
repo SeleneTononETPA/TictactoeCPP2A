@@ -57,4 +57,13 @@
         _numeroTour++;
    }
 
+   void Tictactoe::changeModeAffichage(int numeroStrat){
+       if(numeroStrat==-1){
+           _grilleDeJeu.set_stratAffiche(new ConcreteStrategyA());
+       }
+       else{
+            _grilleDeJeu.set_stratAffiche(new ConcreteStrategyB());
+       }
+   }
+
 #endif

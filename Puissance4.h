@@ -22,6 +22,7 @@ class Puissance4 : public JeuGrille{
         bool testeJeuNul();
 
         void finTour();
+        void changeModeAffichage(int numeroStrat);
 
 };
 

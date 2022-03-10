@@ -4,6 +4,14 @@
 #include <string>
 #include <vector>
 
+class StratAffichage
+{
+public:
+    virtual ~StratAffichage() {}
+    virtual void execute(std::vector<char> tab, int x, int y) const = 0;
+};
+
+
 class Grille{
 
     private:
@@ -14,6 +22,7 @@ class Grille{
         std::vector<char> _tableau;
         int _nombreColonnes;
         int _nombreLignes;
+        StratAffichage *strategy_;
         
     public:
         char getContent(int x, int y); 
@@ -32,6 +41,9 @@ class Grille{
         Grille();
         // initialise la grille avec les cases toutes à 0
         Grille(int nbColonnes, int nbLignes);
+
+
+        void set_stratAffiche(StratAffichage *strategy);
 };
 
 #endif
