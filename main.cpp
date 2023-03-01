@@ -1,6 +1,6 @@
-#include "Grille.cpp"
-#include "Tictactoe.cpp"
-#include "Puissance4.cpp"
+#include "Grille.h"
+#include "Tictactoe.h"
+#include "Puissance4.h"
 #include "JeuGrille.h"
 #include <iostream>
 #include <string>
