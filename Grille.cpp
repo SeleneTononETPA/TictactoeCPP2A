@@ -2,6 +2,7 @@
 #define GRILLE_CPP
 
 #include "Grille.h"
+
 #include <iostream>
 
     Grille::Grille() : _nombreColonnes(3), _nombreLignes(3) { 
