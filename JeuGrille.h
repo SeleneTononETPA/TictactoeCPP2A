@@ -4,7 +4,7 @@
 #include "Grille.h"
 #include <string>
 
-class JeuGrille{
+class JeuGrille {
 
     private:
         Grille _grilleDeJeu;

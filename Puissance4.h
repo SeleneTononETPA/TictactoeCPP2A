@@ -3,9 +3,10 @@
 
 #include "Grille.h"
 #include "JeuGrille.h"
+
 #include <string>
 
-class Puissance4 : public JeuGrille{
+class Puissance4 : public JeuGrille {
 
     private:
         Grille _grilleDeJeu;

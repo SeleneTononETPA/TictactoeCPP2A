@@ -5,7 +5,7 @@
 #include "JeuGrille.h"
 #include <string>
 
-class Tictactoe : public JeuGrille{
+class Tictactoe : public JeuGrille {
 
     private:
         Grille _grilleDeJeu;

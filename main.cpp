@@ -6,7 +6,7 @@
 #include <string>
 
 
-int main(){
+int main() {
 
     bool partiegagnee = false;
     JeuGrille * jeu;
